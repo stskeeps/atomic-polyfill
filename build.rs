@@ -31,6 +31,7 @@ fn main() {
         ("riscv32imac-*", (Native, Full)),
         ("riscv32gc-*", (Native, Full)),
         ("riscv32imc-*-espidf", (Native, Native)),
+        ("riscv32im-*", (Full, Full)),
         ("riscv32*", (Full, Full)),
         ("avr-*", (Full, Full)),
         ("thumbv4t-*", (Full, Full)),
